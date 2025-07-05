@@ -1,20 +1,19 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: Nand2Tetris Solutions
 theme: just-the-docs
 
-url: https://just-the-docs.github.io
-logo: "nand2tetris.png"
+url: https://levannahonline.github.io/nand2tetris/
+logo: "docs\nand2tetris.png"
 aux_links:
   Template Repository: https://github.com/just-the-docs/just-the-docs-template
 
 nav:
   - Introduction: index.md
   - Projects:
-    - Project 1 (Logic Gates): project1.md
-    - Project 2 (ALU): project2.md
-    - Project 3 (Memory): project3.md
-    - Project 4 (Machine Language): project4.md
-    - Project 5 (Computer Architecture): project5.md
-    - Project 6 (Assembler): project6.md
+    - Project 1 (Logic Gates): docs/project1.md
+    - Project 2 (ALU): docs/project2.md
+    - Project 3 (Memory): docs/project3.md
+    - Project 4 (Machine Language): docs/project4.md
+    - Project 5 (Computer Architecture): docs/project5.md
+    - Project 6 (Assembler): docs/project6.md
 
     

@@ -11,16 +11,26 @@ Perfect for learners and self-study!
 ### 1. Lectures 
 
 [Boolean Logic](https://drive.google.com/file/d/1MY1buFHo_Wx5DPrKhCNSA2cm5ltwFJzM/view)
+
 [Boolean Arithmetic](https://drive.google.com/file/d/1ie9s3GjM2TrvL7PrEZJ00gEwezgNLOBm/view)
-[Memory](drive.google.com/open?id=1boFooygPrxMX-AxzogFYIZ-8QsZiDz96&usp=drive_fs) 
+
+[Memory](https://drive.google.com/file/d/1boFooygPrxMX-AxzogFYIZ-8QsZiDz96/view) 
+
 [Machine Language](https://drive.google.com/file/d/1HxjPmIZkFHl-BVW3qoz8eD9dqEuEyuBI/view)
+
 [Computer Architecture](https://drive.google.com/file/d/1Z_fxYmmRNXTkAzmZ6YMoX9NXZIRVCKiw/view)
+
 [Assembler](https://drive.google.com/file/d/1uKGRMnL-gqk9DsgeN50z0EpHoSMWe6F5/view)
+
 
 ### 2. Homework
 
-[Project 1](https://drive.google.com/file/d/17Rt3z7_OvpoQNlM6xtmC67Rn3blgM4W5/view) | [Project 2](https://drive.google.com/file/d/17SzlbKXl0kc5BHsKsKMrOlx-EEpWvq7g/view) | [Project 3](https://drive.google.com/file/d/17SzlbKXl0kc5BHsKsKMrOlx-EEpWvq7g/view) 
-[Project 4](URhttps://drive.google.com/file/d/1orGwC3o74vGv_rk-FDwoJGVvTxWGuQOC/viewL) | [Project 5](https://drive.google.com/file/d/1CJ1ymH6xdC5Z-Da8G0tqowaoOXq1cdbU/view) |[Project 6](https://drive.google.com/file/d/1CITliwTJzq19ibBF5EeuNBZ3MJ01dKoI/view)
+[Project 1](https://drive.google.com/file/d/17Rt3z7_OvpoQNlM6xtmC67Rn3blgM4W5/view) 
+[Project 2](https://drive.google.com/file/d/17SzlbKXl0kc5BHsKsKMrOlx-EEpWvq7g/view) 
+[Project 3](https://drive.google.com/file/d/1ArUW8mkh4Kax-2TXGRpjPWuHf70u6_TJ/view) 
+[Project 4](https://drive.google.com/file/d/1orGwC3o74vGv_rk-FDwoJGVvTxWGuQOC/view) 
+[Project 5](https://drive.google.com/file/d/1CJ1ymH6xdC5Z-Da8G0tqowaoOXq1cdbU/view) 
+[Project 6](https://drive.google.com/file/d/1CITliwTJzq19ibBF5EeuNBZ3MJ01dKoI/view)
 
 ### 3. Tools
 
