@@ -1,6 +1,7 @@
 ---
 title: Home
 layout: home
+nav_order: 1
 ---
 # Introduction
 Explore complete, step-by-step solutions for all projects in **[Nand2Tetris Part 1](https://www.nand2tetris.org/)**.

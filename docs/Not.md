@@ -1,3 +1,10 @@
+---
+layout: default
+title: Not Gate
+parent: Project1
+grand_parent: Documentation
+nav_order: 1
+---
 # NOT Gate  
 
 ![notgate](image.png)
