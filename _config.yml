@@ -12,49 +12,49 @@ nav:
   - Projects:
 
     - Project 1:
-      - NOT Gate: project_01/not.md
-      - AND Gate: project_01/and.md
-      - OR Gate: project_01/or.md
-      - XOR Gate: project_01/xor.md
-      - Mux Gate: project_01/mux.md
-      - DMux Gate: project_01/dmux.md
-      - NOT16 Gate: project_01/not16.md
-      - AND16 Gate: project_01/and16.md
-      - OR16 Gate: project_01/or16.md
-      - Mux16 Gate: project_01/mux16.md
-      - Or8Way Gate : project_01/or8way.md
-      - Mux4Way16 Gate: project_01/mux4way16.md
-      - Mux8Way16 Gate: project_01/mux8way16.md
-      - DMux4Way Gate: project_01/dmux4way.md
-      - DMux8Way Gate: project_01/dmux8way.md
+      - NOT Gate: docs/not.md
+      - AND Gate: docs/and.md
+      - OR Gate: docs/or.md
+      - XOR Gate: docs/xor.md
+      - Mux Gate: docs/mux.md
+      - DMux Gate: docs/dmux.md
+      - NOT16 Gate: docs/not16.md
+      - AND16 Gate: docs/and16.md
+      - OR16 Gate: docs/or16.md
+      - Mux16 Gate: docs/mux16.md
+      - Or8Way Gate : docs/or8way.md
+      - Mux4Way16 Gate: docs/mux4way16.md
+      - Mux8Way16 Gate: docs/mux8way16.md
+      - DMux4Way Gate: docs/dmux4way.md
+      - DMux8Way Gate: docs/dmux8way.md
     - Project 2:
 
-      - Half Adder: project_02/half-adder.md
-      - Full Adder: project_02/full-adder.md
-      - Add16: project_02/add16.md
-      - Inc16: project_02/inc16.md
-      - ALU: project_02/alu.md
+      - Half Adder: docs/half-adder.md
+      - Full Adder: docs/full-adder.md
+      - Add16: docs/add16.md
+      - Inc16: docs/inc16.md
+      - ALU: docs/alu.md
 
     - Project 3:
-      - Bit: project_03/bit.md
-      - Register: project_03/register.md
-      - RAM8: project_03/ram8.md
-      - RAM64: project_03/ram64.md
-      - RAM512: project_03/ram512.md
-      - RAM4K: project_03/ram4k.md
-      - RAM16K: project_03/ram16k.md
-      - PC: project_03/pc.md
+      - Bit: docs/bit.md
+      - Register: docs/register.md
+      - RAM8: docs/ram8.md
+      - RAM64: docs/ram64.md
+      - RAM512: docs/ram512.md
+      - RAM4K: docs/ram4k.md
+      - RAM16K: docs/ram16k.md
+      - PC: docs/pc.md
 
     - Project 4:
-      - Fill.asm : project_04/fill.md
-      - Mult.asm : project_04/mult.md
+      - Fill.asm : docs/fill.md
+      - Mult.asm : prdocsoject_04/mult.md
 
     - Project 5:
-      - Memory: project_05/memory.md
-      - CPU: project_05/cpu.md
-      - Computer: project_05/computer.md
+      - Memory: docs/memory.md
+      - CPU: docs/cpu.md
+      - Computer: docs/computer.md
 
     - Project 6:
-      - Assembler : project_06/assembler.md
+      - Assembler : docs/assembler.md
 
     
