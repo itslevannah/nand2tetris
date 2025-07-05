@@ -1,6 +1,7 @@
 title: Nand2Tetris Solutions
 theme: just-the-docs
-
+include:
+  - includes
 url: https://levannahonline.github.io/nand2tetris/
 logo: "docs\nand2tetris.png"
 aux_links:

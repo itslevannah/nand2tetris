@@ -6,5 +6,4 @@ nav_order: 3
 ---
 
 # Project 1: Logic Gates
-
-{% include toc.md %}
+{% include /_includes/toc.md %}
