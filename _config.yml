@@ -3,6 +3,58 @@ description: A starter template for a Jeykll site using the Just the Docs theme!
 theme: just-the-docs
 
 url: https://just-the-docs.github.io
-
+logo: "nand2tetris.png"
 aux_links:
   Template Repository: https://github.com/just-the-docs/just-the-docs-template
+
+nav:
+  - Introduction: index.md
+  - Projects:
+
+    - Project 1:
+      - NOT Gate: project_01/not.md
+      - AND Gate: project_01/and.md
+      - OR Gate: project_01/or.md
+      - XOR Gate: project_01/xor.md
+      - Mux Gate: project_01/mux.md
+      - DMux Gate: project_01/dmux.md
+      - NOT16 Gate: project_01/not16.md
+      - AND16 Gate: project_01/and16.md
+      - OR16 Gate: project_01/or16.md
+      - Mux16 Gate: project_01/mux16.md
+      - Or8Way Gate : project_01/or8way.md
+      - Mux4Way16 Gate: project_01/mux4way16.md
+      - Mux8Way16 Gate: project_01/mux8way16.md
+      - DMux4Way Gate: project_01/dmux4way.md
+      - DMux8Way Gate: project_01/dmux8way.md
+    - Project 2:
+
+      - Half Adder: project_02/half-adder.md
+      - Full Adder: project_02/full-adder.md
+      - Add16: project_02/add16.md
+      - Inc16: project_02/inc16.md
+      - ALU: project_02/alu.md
+
+    - Project 3:
+      - Bit: project_03/bit.md
+      - Register: project_03/register.md
+      - RAM8: project_03/ram8.md
+      - RAM64: project_03/ram64.md
+      - RAM512: project_03/ram512.md
+      - RAM4K: project_03/ram4k.md
+      - RAM16K: project_03/ram16k.md
+      - PC: project_03/pc.md
+
+    - Project 4:
+      - Fill.asm : project_04/fill.md
+      - Mult.asm : project_04/mult.md
+
+    - Project 5:
+      - Memory: project_05/memory.md
+      - CPU: project_05/cpu.md
+      - Computer: project_05/computer.md
+
+    - Project 6:
+      - Assembler : project_06/assembler.md
+
+    

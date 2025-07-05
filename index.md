@@ -2,34 +2,35 @@
 title: Home
 layout: home
 ---
+# Introduction
+Explore complete, step-by-step solutions for all projects in **[Nand2Tetris Part 1](https://www.nand2tetris.org/)**.
+Master building a modern computer from first principles with clear, tested implementations. 
+Perfect for learners and self-study!
 
-This is a *bare-minimum* template to create a Jekyll site that uses the [Just the Docs] theme. You can easily set the created site to be published on [GitHub Pages] – the [README] file explains how to do that, along with other details.
+# Resources
+### 1. Lectures 
 
-If [Jekyll] is installed on your computer, you can also build and preview the created site *locally*. This lets you test changes before committing them, and avoids waiting for GitHub Pages.[^1] And you will be able to deploy your local build to a different platform than GitHub Pages.
+[Boolean Logic](https://drive.google.com/file/d/1MY1buFHo_Wx5DPrKhCNSA2cm5ltwFJzM/view)
+[Boolean Arithmetic](https://drive.google.com/file/d/1ie9s3GjM2TrvL7PrEZJ00gEwezgNLOBm/view)
+[Memory](drive.google.com/open?id=1boFooygPrxMX-AxzogFYIZ-8QsZiDz96&usp=drive_fs) 
+[Machine Language](https://drive.google.com/file/d/1HxjPmIZkFHl-BVW3qoz8eD9dqEuEyuBI/view)
+[Computer Architecture](https://drive.google.com/file/d/1Z_fxYmmRNXTkAzmZ6YMoX9NXZIRVCKiw/view)
+[Assembler](https://drive.google.com/file/d/1uKGRMnL-gqk9DsgeN50z0EpHoSMWe6F5/view)
 
-More specifically, the created site:
+### 2. Homework
 
-- uses a gem-based approach, i.e. uses a `Gemfile` and loads the `just-the-docs` gem
-- uses the [GitHub Pages / Actions workflow] to build and publish the site on GitHub Pages
+[Project 1](https://drive.google.com/file/d/17Rt3z7_OvpoQNlM6xtmC67Rn3blgM4W5/view) | [Project 2](https://drive.google.com/file/d/17SzlbKXl0kc5BHsKsKMrOlx-EEpWvq7g/view) | [Project 3](https://drive.google.com/file/d/17SzlbKXl0kc5BHsKsKMrOlx-EEpWvq7g/view) 
+[Project 4](URhttps://drive.google.com/file/d/1orGwC3o74vGv_rk-FDwoJGVvTxWGuQOC/viewL) | [Project 5](https://drive.google.com/file/d/1CJ1ymH6xdC5Z-Da8G0tqowaoOXq1cdbU/view) |[Project 6](https://drive.google.com/file/d/1CITliwTJzq19ibBF5EeuNBZ3MJ01dKoI/view)
 
-Other than that, you're free to customize sites that you create with this template, however you like. You can easily change the versions of `just-the-docs` and Jekyll it uses, as well as adding further plugins.
+### 3. Tools
 
-[Browse our documentation][Just the Docs] to learn more about how to use this theme.
+[IDE](https://nand2tetris.github.io/web-ide/chip) | [Nand2tetris Software](https://drive.google.com/open?id=1IkIR8Pwq3PY49QgXpUJOkUUVht-TKIET&usp=drive_fs)
+[Book](https://www.amazon.com/Elements-Computing-Systems-Building-Principles/dp/0262640686/ref=ed_oe_p) The Elements of Computing Systems: Building a Modern Computer from First Principles
+[Logisim](https://sourceforge.net/projects/circuit/) a Software to visualize logic gates.
 
-To get started with creating a site, simply:
+# Credits
+Solutions by **levannah**, for better understanding follow along this [youtube playlist](URL)!
 
-1. click "[use this template]" to create a GitHub repository
-2. go to Settings > Pages > Build and deployment > Source, and select GitHub Actions
+# Socials
 
-If you want to maintain your docs in the `docs` directory of an existing project repo, see [Hosting your docs from an existing project repo](https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md#hosting-your-docs-from-an-existing-project-repo) in the template README.
-
-----
-
-[^1]: [It can take up to 10 minutes for changes to your site to publish after you push the changes to GitHub](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll#creating-your-site).
-
-[Just the Docs]: https://just-the-docs.github.io/just-the-docs/
-[GitHub Pages]: https://docs.github.com/en/pages
-[README]: https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md
-[Jekyll]: https://jekyllrb.com
-[GitHub Pages / Actions workflow]: https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/
-[use this template]: https://github.com/just-the-docs/just-the-docs-template/generate
+[YouTube](https://www.youtube.com/@levannahonline) | [LinkdIn](https://www.linkedin.com/in/levannah?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app) | [Github](https://github.com//levannahonline) | [More](https://linktr.ee/levannah)
