@@ -10,51 +10,11 @@ aux_links:
 nav:
   - Introduction: index.md
   - Projects:
-
-    - Project 1:
-      - NOT Gate: docs/not.md
-      - AND Gate: docs/and.md
-      - OR Gate: docs/or.md
-      - XOR Gate: docs/xor.md
-      - Mux Gate: docs/mux.md
-      - DMux Gate: docs/dmux.md
-      - NOT16 Gate: docs/not16.md
-      - AND16 Gate: docs/and16.md
-      - OR16 Gate: docs/or16.md
-      - Mux16 Gate: docs/mux16.md
-      - Or8Way Gate : docs/or8way.md
-      - Mux4Way16 Gate: docs/mux4way16.md
-      - Mux8Way16 Gate: docs/mux8way16.md
-      - DMux4Way Gate: docs/dmux4way.md
-      - DMux8Way Gate: docs/dmux8way.md
-    - Project 2:
-
-      - Half Adder: docs/half-adder.md
-      - Full Adder: docs/full-adder.md
-      - Add16: docs/add16.md
-      - Inc16: docs/inc16.md
-      - ALU: docs/alu.md
-
-    - Project 3:
-      - Bit: docs/bit.md
-      - Register: docs/register.md
-      - RAM8: docs/ram8.md
-      - RAM64: docs/ram64.md
-      - RAM512: docs/ram512.md
-      - RAM4K: docs/ram4k.md
-      - RAM16K: docs/ram16k.md
-      - PC: docs/pc.md
-
-    - Project 4:
-      - Fill.asm : docs/fill.md
-      - Mult.asm : prdocsoject_04/mult.md
-
-    - Project 5:
-      - Memory: docs/memory.md
-      - CPU: docs/cpu.md
-      - Computer: docs/computer.md
-
-    - Project 6:
-      - Assembler : docs/assembler.md
+    - "Project 1 (Logic Gates)": project1.md
+    - "Project 2 (ALU)": project2.md
+    - "Project 3 (Memory)": project3.md
+    - "Project 4 (Machine Language)": project4.md
+    - "Project 5 (Computer Architecture)": project5.md
+    - "Project 6 (Assembler)": project6.md
 
     
