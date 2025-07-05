@@ -10,11 +10,11 @@ aux_links:
 nav:
   - Introduction: index.md
   - Projects:
-    - "Project 1 (Logic Gates)": project1.md
-    - "Project 2 (ALU)": project2.md
-    - "Project 3 (Memory)": project3.md
-    - "Project 4 (Machine Language)": project4.md
-    - "Project 5 (Computer Architecture)": project5.md
-    - "Project 6 (Assembler)": project6.md
+    - Project 1 (Logic Gates): project1.md
+    - Project 2 (ALU): project2.md
+    - Project 3 (Memory): project3.md
+    - Project 4 (Machine Language): project4.md
+    - Project 5 (Computer Architecture): project5.md
+    - Project 6 (Assembler): project6.md
 
     
