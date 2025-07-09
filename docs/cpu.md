@@ -20,7 +20,7 @@ The CPU (Central Processing Unit) is the brain of the Hack computer. It:
 
 It receives a 16-bit instruction and computes the next values for the outM, writeM, addressM, and pc outputs.
 
-<img src="\images\cpu.png" width="500" height="200px"/>
+<img src="/nand2tetris/images/cpu.png" width="500" height="200px"/>
 
 
 ### 2. Truth Table

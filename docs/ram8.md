@@ -10,7 +10,7 @@ nav_order : 24
 
 RAM8 is a memory chip that consists of 8 registers, each capable of holding a 16-bit value. It provides read/write access to one of these registers, based on a 3-bit address input. If load is 1, the value at in is stored in the selected register; otherwise, the stored value is retained..
 
-<img src="\images\ram8.png" width="500" height="200px"/>
+<img src="/nand2tetris/images/ram8.png" width="500" height="200px"/>
 
 
 ### 2. Truth Table
@@ -27,7 +27,7 @@ RAM8 is a memory chip that consists of 8 registers, each capable of holding a 16
 
 Representation of the RAM8 in the logisim software
 
-<img src="\logisim\ram8.png" width="500" height="200px"/>
+<img src="/nand2tetris/logisim/ram8.png" width="500" height="200px"/>
 
 
 ### 4. Implementation (HDL)

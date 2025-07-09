@@ -30,7 +30,7 @@ Internally, RAM64 is built using 8 RAM8 chips and a tree of multiplexers/demulti
 
 Representation of the RAM8 in the logisim software
 
-<img src="\logisim\ram64.png" width="500" height="200px"/>
+<img src="/nand2tetris/logisim/ram64.png" width="500" height="200px"/>
 
 ### 4. Implementation (HDL)
 

@@ -10,7 +10,7 @@ nav_order : 27
 
 RAM4K is a memory chip that stores 4,096 (2¹²) 16-bit words. It is built using 8 RAM512 chips. The input address[12] selects one of the 4,096 registers for read or write. The upper 3 bits (address[9..11]) choose which RAM512 chip to access, while the lower 9 bits (address[0..8]) specify the register inside that chip.
 
-<img src="\images\ram4k.avif" width="500" height="200px"/>
+<img src="/nand2tetris/images/ram4k.avif" width="500" height="200px"/>
 
 
 ### 2. Truth Table

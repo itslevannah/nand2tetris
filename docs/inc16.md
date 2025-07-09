@@ -10,7 +10,7 @@ nav_order : 20
 
 16-bit Incrementer chip is a special kind of Adder, used to increment a 16-bit input by 1.
 
-<img src="\images\inc16.png" width="500" height="200px"/> 
+<img src="/nand2tetris/images/inc16.png" width="500" height="200px"/> 
 
 ### 2. Truth Table
 
@@ -30,7 +30,7 @@ nav_order : 20
 
 Representation of the Inc16 Chip in the logisim software using the previous gates.
 
-<img src="\logisim\inc16.png" width="500" height="200px"/> 
+<img src="/nand2tetris/logisim/inc16.png" width="500" height="200px"/> 
 
 
 ### 4. Implementation (HDL)

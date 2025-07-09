@@ -13,13 +13,13 @@ A Multiplexer, is a three-input bit chip that uses one of the inputs, called the
 
     When sel = 1, the output is b.
 
-<img src="\images\mux.png" width="500" height="200px"/> 
+<img src="/nand2tetris/images/mux.png" width="500" height="200px"/> 
 
 
 ### 2. Implementation (Logisim)
 Representation of the Mux Chip in the logisim software using the previous gates.
 
-<img src="\logisim\mux.png" width="500" height="200px"/> 
+<img src="/nand2tetris/logisim/mux.png" width="500" height="200px"/> 
 
 
 ### 3. Implementation (HDL)

@@ -8,13 +8,13 @@ nav_order: 4
 ### 1. Or Gate
 The Or gate returns true, when either of the inputs are true.
 
-<img src="\images\or.jpg" width="500" height="200px"/> 
+<img src="/nand2tetris/images/or.jpg" width="500" height="200px"/> 
 
 
 ### 2. Implementation (Logisim)
 Representation of the Or gate in the logisim software using the Nand and the Not gates only.
 We can represent the Or gate in both ways circuits in the image!
-<img src="\logisim\or.png" width="500" height="200px"/> 
+<img src="/nand2tetris/logisim/or.png" width="500" height="200px"/> 
 
 
 ### 3. Implementation (HDL)

@@ -10,7 +10,7 @@ nav_order : 18
 
 Full Adder chip is used to add 3-bits.
 
-<img src="\images\fulladder.avif" width="500" height="200px"/> 
+<img src="/nand2tetris/images/fulladder.avif" width="500" height="200px"/> 
 
 ### 2. Truth Table
 
@@ -27,7 +27,7 @@ Full Adder chip is used to add 3-bits.
 
 Representation of the Full Adder Chip in the logisim software using the previous gates.
 
-<img src="\logisim\fulladder.png" width="500" height="200px"/> 
+<img src="/nand2tetris/logisim/fulladder.png" width="500" height="200px"/> 
 
 
 ### 4. Implementation (HDL)

@@ -18,7 +18,7 @@ The Computer chip supports:
 
     Program flow control (jump, reset, halt, etc.)
 
-<img src="\images\computer.png" width="500" height="200px"/>
+<img src="/nand2tetris/images/computer.png" width="500" height="200px"/>
 
 
 ### 2. Truth Table

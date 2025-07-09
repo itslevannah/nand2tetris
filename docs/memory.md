@@ -24,7 +24,7 @@ It receives a 16-bit address, a 16-bit in, a load signal, and produces a 16-bit 
 
     address == 24576 → Keyboard
 
-<img src="\images\memory.avif" width="500" height="200px"/>
+<img src="/nand2tetris/images/memory.avif" width="500" height="200px"/>
 
 
 ### 2. Truth Table

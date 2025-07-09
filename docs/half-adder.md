@@ -10,7 +10,7 @@ nav_order : 17
 The chip used to add two n-bit numbers is known as Adder, also known as n-bit Adder.
 Half Adder chip is used to add 2-bits.
 
-<img src="\images\halfadder.avif" width="500" height="200px"/> 
+<img src="/nand2tetris/images/halfadder.avif" width="500" height="200px"/> 
 
 ### 2. Truth Table
 
@@ -26,7 +26,7 @@ Half Adder chip is used to add 2-bits.
 ### 3. Implementation (Logisim)
 Representation of the Half Adder Chip in the logisim software using the previous gates.
 
-<img src="\logisim\halfadder.png" width="500" height="200px"/> 
+<img src="/nand2tetris/logisim/halfadder.png" width="500" height="200px"/> 
 
 
 ### 4. Implementation (HDL)

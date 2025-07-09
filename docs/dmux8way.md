@@ -10,7 +10,7 @@ nav_order : 16
 
 An 8-way Demultiplexor chip outputs the given input to certain output pin, which is specified by selector bit.
 
-<img src="\images\dmux8way.jpg" width="500" height="200px"/> 
+<img src="/nand2tetris/images/dmux8way.jpg" width="500" height="200px"/> 
 
 ### 2. Truth Table
 
@@ -38,7 +38,7 @@ An 8-way Demultiplexor chip outputs the given input to certain output pin, which
 ### 3. Implementation (Logisim)
 Representation of the DMux8Way Chip in the logisim software using the previous gates.
 
-<img src="\logisim\dmux8way.png" width="500" height="200px"/> 
+<img src="/nand2tetris/logisim/dmux8way.png" width="500" height="200px"/> 
 
 
 ### 4. Implementation (HDL)

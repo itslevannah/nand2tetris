@@ -10,7 +10,7 @@ nav_order : 23
 
 The Register is a 16-bit storage unit. It stores a 16-bit value and either maintains the stored value or updates it based on the load control bit.
 
-<img src="\images\register.png" width="500" height="200px"/> 
+<img src="/nand2tetris/images/register.png" width="500" height="200px"/> 
 
 
 ### 2. Truth Table

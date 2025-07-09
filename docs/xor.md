@@ -9,13 +9,13 @@ nav_order: 5
 ### 1. XOr Gate
 The Xor gate, known as Exclusive-OR, returns true when the inputs are different (one is 0, the other is 1).
 
-<img src="\images\xor.png" width="500" height="200px"/> 
+<img src="/nand2tetris/images/xor.png" width="500" height="200px"/> 
 
 
 ### 2. Implementation (Logisim)
 Representation of the xor gate in the logisim software using the Nxor xor the Not gates only.
 
-<img src="\logisim\xor.png" width="500" height="200px"/> 
+<img src="/nand2tetris/logisim/xor.png" width="500" height="200px"/> 
 
 
 ### 3. Implementation (HDL)

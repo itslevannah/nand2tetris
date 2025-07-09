@@ -34,7 +34,7 @@ Representation of the And16 Chip in the logisim software using the previous gate
 
     Built using 16 individual AND gates, each processing one bit of the input buses.
 
-<img src="\logisim\and16.png" width="500" height="200px"/> 
+<img src="/nand2tetris/logisim/and16.png" width="500" height="200px"/> 
 
 
 ### 3. Implementation (HDL)

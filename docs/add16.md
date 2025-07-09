@@ -16,7 +16,7 @@ nav_order : 19
 
     Built using a chain of 1 Half Adder (for LSB) + 15 Full Adders for ripple-carry addition.
 
-<img src="\images\16add.png" width="500" height="200px"/> 
+<img src="/nand2tetris/images/16add.png" width="500" height="200px"/> 
 
 ### 2. Truth Table
 
@@ -38,7 +38,7 @@ Built by cascading:
 
     15 Full Adders (for bits a[1..15] + b[1..15] + carry)
 
-<img src="\logisim\add16.png" width="500" height="200px"/> 
+<img src="/nand2tetris/logisim/add16.png" width="500" height="200px"/> 
 
 
 ### 4. Implementation (HDL)

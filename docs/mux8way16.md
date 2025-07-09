@@ -9,7 +9,7 @@ nav_order : 14
 ### 1. Mux8Way16 Chip
 An 8-way 16-bit Multiplexor chip outputs one of the given eight 16-bit inputs, which is specified by selector bit.
 
-<img src="\images\mux8way16.jpg" width="500" height="200px"/> 
+<img src="/nand2tetris/images/mux8way16.jpg" width="500" height="200px"/> 
 
 ### 2. Truth Table
 
@@ -30,7 +30,7 @@ An 8-way 16-bit Multiplexor chip outputs one of the given eight 16-bit inputs, w
 ### 3. Implementation (Logisim)
 Representation of the Mux8Way16 Chip in the logisim software using the previous gates.
 
-<img src="\logisim\mux8way16.png" width="500" height="200px"/> 
+<img src="/nand2tetris/logisim/mux8way16.png" width="500" height="200px"/> 
 
 
 ### 4. Implementation (HDL)

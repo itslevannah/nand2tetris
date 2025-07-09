@@ -19,7 +19,7 @@ The Program Counter (PC) is a 16-bit register with built-in control logic to sup
     Otherwise, the counter holds its current value.
 
 
-<img src="\images\pc.png" width="500" height="200px"/>
+<img src="/nand2tetris/images/pc.png" width="500" height="200px"/>
 
 
 ### 2. Truth Table
@@ -37,7 +37,7 @@ The Program Counter (PC) is a 16-bit register with built-in control logic to sup
 ### 3. Implementation 
 
 
-<img src="\logisim\pc.png" width="500" height="200px"/>
+<img src="/nand2tetris/logisim/pc.png" width="500" height="200px"/>
 
 ### 4. Implementation (HDL)
 

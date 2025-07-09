@@ -31,7 +31,7 @@ Unlike n-bit input logic gates, n-way logic gates use the same output iterativel
 ### 3. Implementation (Logisim)
 Representation of the Or8Way Chip in the logisim software using the previous gates.
 
-<img src="\logisim\or8way.png" width="500" height="200px"/> 
+<img src="/nand2tetris/logisim/or8way.png" width="500" height="200px"/> 
 
 
 ### 4. Implementation (HDL)

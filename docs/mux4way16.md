@@ -11,7 +11,7 @@ An 4-way 16-bit Multiplexor chip outputs one of the given four 16-bit inputs, wh
 
 Unlike n-bit input logic gates, n-way logic gates use the same output iteratively over the boolean operation, which means, it uses the previous output as input for the next similar boolean operation.
 
-<img src="\images\mux4way16.png" width="500" height="200px"/> 
+<img src="/nand2tetris/images/mux4way16.png" width="500" height="200px"/> 
 
 ### 2. Truth Table
 
@@ -28,7 +28,7 @@ Unlike n-bit input logic gates, n-way logic gates use the same output iterativel
 ### 3. Implementation (Logisim)
 Representation of the Mux4Way16 Chip in the logisim software using the previous gates.
 
-<img src="\logisim\mux4way16.png" width="500" height="200px"/> 
+<img src="/nand2tetris/logisim/mux4way16.png" width="500" height="200px"/> 
 
 
 ### 4. Implementation (HDL)

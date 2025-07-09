@@ -19,10 +19,10 @@ The Hack ALU computes 18 possible functions on two 16-bit inputs (x, y), selecte
         ng (Negative): 1 if out < 0 (MSB = 1), else 0.
 
 
-<img src="\images\alu.avif" width="500" height="200px"/> 
+<img src="/nand2tetris/images/alu.avif" width="500" height="200px"/> 
 
 ### 2. Truth Table
-<img src="\images\alutt.avif" width="500" height="200px"/> 
+<img src="/nand2tetris/images/alutt.avif" width="500" height="200px"/> 
 
 
 ### 3. Implementation (Logisim)
@@ -40,7 +40,7 @@ The ALU is built using:
 
 
 
-<img src="\logisim\alu.png" width="500" height="200px"/> 
+<img src="/nand2tetris/logisim/alu.png" width="500" height="200px"/> 
 
 #### **3.1 Control bits:**
 

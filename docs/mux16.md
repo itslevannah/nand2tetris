@@ -29,7 +29,7 @@ An 16-bit multiplexor is almost similar to the Multiplexor Chip described previo
 ### 3. Implementation (Logisim)
 Representation of the Mux16 Chip in the logisim software using the previous Chips.
 
-<img src="\logisim\mux16.png" width="500" height="200px"/> 
+<img src="/nand2tetris/logisim/mux16.png" width="500" height="200px"/> 
 
 
 ### 4. Implementation (HDL)

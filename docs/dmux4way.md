@@ -9,7 +9,7 @@ nav_order : 15
 ### 1. DMux4Way Chip
 An 4-way Demultiplexor chip outputs the given input to certain output pin, which is specified by selector bit.
 
-<img src="\images\dmux4way.avif" width="500" height="200px"/> 
+<img src="/nand2tetris/images/dmux4way.avif" width="500" height="200px"/> 
 
 ### 2. Truth Table
 
@@ -29,7 +29,7 @@ An 4-way Demultiplexor chip outputs the given input to certain output pin, which
 ### 3. Implementation (Logisim)
 Representation of the DMux4Way Chip in the logisim software using the previous gates.
 
-<img src="\logisim\dmux4way.png" width="500" height="200px"/> 
+<img src="/nand2tetris/logisim/dmux4way.png" width="500" height="200px"/> 
 
 
 ### 4. Implementation (HDL)

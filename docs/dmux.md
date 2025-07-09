@@ -13,13 +13,13 @@ A Demultiplexer (DMux) performs the inverse function of a Multiplexer (Mux). It 
 
     If sel = 1, the input is directed to output b.
 
-<img src="\images\dmux.png" width="500" height="200px"/> 
+<img src="/nand2tetris/images/dmux.png" width="500" height="200px"/> 
 
 
 ### 2. Implementation (Logisim)
 Representation of the DMux Chip in the logisim software using the previous gates.
 
-<img src="\logisim\dmux.png" width="500" height="200px"/> 
+<img src="/nand2tetris/logisim/dmux.png" width="500" height="200px"/> 
 
 
 ### 3. Implementation (HDL)

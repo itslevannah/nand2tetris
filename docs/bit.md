@@ -10,7 +10,7 @@ nav_order : 22
 
 The Bit chip stores a single bit of data. It acts like a 1-bit register that can either maintain its previous state or update based on the load input signal.
 
-<img src="\images\bit.png" width="500" height="200px"/> 
+<img src="/nand2tetris/images/bit.png" width="500" height="200px"/> 
 
 ### 2. Truth Table
 
@@ -26,7 +26,7 @@ The Bit chip stores a single bit of data. It acts like a 1-bit register that can
 
 Representation of the Bit Chip using a DFF and Mux to control updating.
 
-<img src="\logisim\bit.png" width="500" height="200px"/> 
+<img src="/nand2tetris/logisim/bit.png" width="500" height="200px"/> 
 
 
 ### 4. Implementation (HDL)

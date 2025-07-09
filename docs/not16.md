@@ -27,7 +27,7 @@ In other words:
 ### 3. Implementation (Logisim)
 Representation of the Not16 Chip in the logisim software using the previous gates.
 
-<img src="\logisim\not16.png" width="500" height="200px"/> 
+<img src="/nand2tetris/logisim/not16.png" width="500" height="200px"/> 
 
 
 ### 4. Implementation (HDL)

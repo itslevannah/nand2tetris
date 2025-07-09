@@ -20,7 +20,7 @@ This assembler performs:
 
     Instruction decoding (A and C types)
 
-<img src="\images\assembler.webp" width="500" height="200px"/>
+<img src="/nand2tetris/images/assembler.webp" width="500" height="200px"/>
 
 ### 2. High-Level Architecture
 ```
