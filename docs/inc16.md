@@ -26,14 +26,7 @@ nav_order : 20
 
 
 
-### 3. Implementation (Logisim)
-
-Representation of the Inc16 Chip in the logisim software using the previous gates.
-
-<img src="/nand2tetris/logisim/inc16.png" width="500" height="200px"/> 
-
-
-### 4. Implementation (HDL)
+### 3. Implementation (HDL)
 
 The function in the above abstraction can help in the implementation of 16-bit Incrementer Chip.
 
@@ -50,6 +43,6 @@ CHIP Inc16 {
     OUT out[16];
 
     PARTS:
-   Add16(a=in, b[0]=true, out=out);
+   Add16(a=in, b[0]=true , b[1..15]=false, out=out);
 }
  ```

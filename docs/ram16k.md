@@ -14,7 +14,6 @@ RAM16K is a memory chip consisting of 16,384 (2¹⁴) 16-bit words. It is constr
 
     The bottom 12 bits (address[0..11]) select the register within the chosen RAM4K.
 
-<img src="/nand2tetris/images/ram16k.avif" width="500" height="200px"/>
 
 
 ### 2. Truth Table

@@ -98,10 +98,12 @@ CHIP ALU {
 
     // Postprocess output (no)  
     Not16(in=fxy, out=notfxy);  
-    Mux16(a=fxy, b=notfxy, sel=no, out=out, out[15]=ng);  
+    Mux16(a=fxy, b=notfxy, sel=no, out=out, out[15]=ng, out[0..7]=zr1 , out[8..15]=zr2);  
 
     // Zero/negative flags  
-    Or16Way(in=out, out=notzr);            // 0 if all bits are 0  
-    Not(in=notzr, out=zr);                 // zr = 1 iff out == 0  
+    Or8Way(in=zr1, out=or1)
+    Or8Way(in=zr, out=or2)
+    Or(a=zr1 , b=zr2 , out=prezr)
+    Not(in=prezr, out=zr);                 // zr = 1 iff out == 0  
 }
  ```
