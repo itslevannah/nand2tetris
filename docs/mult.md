@@ -41,41 +41,25 @@ repeat R1 times:
 ### 4. Instruction Walkthrough
 
 ```
-    // Load first number (multiplicand) into D
-    @R0
-    D=M            // D = R0
-
-    // Store D into temp variable x
-    @x
-    M=D            // x = R0
-
-    // Load second number (multiplier)
-    @R1
-    D=M            // D = R1
-
-    // Store D into counter
-    @count
-    M=D            // count = R1
-
-    // Initialize result = 0
+    // Initialize R2 = 0
     @R2
     M=0
 
     (LOOP)
-        // If count == 0, we’re done
-        @count
+        // Exit if count == 0
+        @R1
         D=M
         @END
         D;JEQ
 
-        // Add x to R2 (R2 += x)
-        @x
+        // Add R0 to R2 (R2 += R0)
+        @R0
         D=M
         @R2
         M=M+D
 
-        // Decrement count
-        @count
+        // Decrement R1 (count)
+        @R1
         M=M-1
 
         // Repeat
@@ -83,10 +67,8 @@ repeat R1 times:
         0;JMP
 
     (END)
-        // Done
         @END
-        0;JMP
-
+        0;JMP    // Halt (optional)
  ```
 
 ### 5. Instruction Walkthrough

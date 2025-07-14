@@ -49,15 +49,13 @@ CHIP PC {
     OUT out[16];
 
     PARTS:
-    // Calculate next value (priority: reset > load > inc)
-    Mux16(a=out, b=in, sel=load, out=loadOrHold);
-    Mux16(a=loadOrHold, b=incOut, sel=inc, out=incOrLoad);
-    Mux16(a=incOrLoad, b=false, sel=reset, out=nextPC);
-
-    // Incrementer
+    // Calculate next value with proper priority: reset > load > inc
     Inc16(in=out, out=incOut);
+    Mux16(a=out, b=incOut, sel=inc, out=incOrHold);
+    Mux16(a=incOrHold, b=in, sel=load, out=loadOrInc);
+    Mux16(a=loadOrInc, b=false, sel=reset, out=nextPC);
 
-    // Register (loads if reset, load, or inc is active)
+    // Register load signal: load if reset, load, or inc is active
     Or(a=reset, b=load, out=loadOrReset);
     Or(a=loadOrReset, b=inc, out=shouldLoad);
     Register(in=nextPC, load=shouldLoad, out=out);
