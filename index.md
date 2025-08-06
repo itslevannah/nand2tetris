@@ -52,6 +52,10 @@ Perfect for learners and self-study!
 
 [Logisim](https://sourceforge.net/projects/circuit/) a Software to visualize logic gates.
 
+# Youtube Playlist
+Watch full tutorial for all the projects on this course on Youtube:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?si=oUcai33cbNIYGO6E&amp;list=PLW5N7Qkyh5oaM2XhpJOkLsIZl0cs7wBTF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 # Credits
 
 Solutions by **levannah**, for better understanding follow along this [youtube playlist](URL)!
