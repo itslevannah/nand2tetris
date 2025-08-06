@@ -58,7 +58,7 @@ Watch full tutorial for all the projects on this course on Youtube:
 
 # Credits
 
-Solutions by **levannah**, for better understanding follow along this [youtube playlist](URL)!
+Solutions by **levannah**.
 
 # Socials
-[YouTube](https://www.youtube.com/@levannahonline) | [LinkdIn](https://www.linkedin.com/in/levannah?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app) | [Github](https://github.com//levannahonline) | [More](https://linktr.ee/levannah)
+[YouTube](https://www.youtube.com/@itslevannah) | [LinkdIn](https://www.linkedin.com/in/itslevannah/) | [Github](https://github.com//itslevannah) | [More](https://linktr.ee/levannah)
