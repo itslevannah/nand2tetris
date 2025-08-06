@@ -77,3 +77,5 @@ CHIP Add16 {
     FullAdder(a=a[15], b=b[15], c=c15, sum=out[15], carry=c16); // Discarded
 }
  ```
+### 5. Video Tutorial
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wdu1zUr1Bzg?si=EF8t2_AcgRRGo2ba" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

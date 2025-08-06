@@ -46,3 +46,5 @@ CHIP Mux4Way16 {
     Mux16(a=ab, b=cd, sel=sel[1], out=out);
 }
  ```
+### 5. Video Tutorial
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Y9aiaY3iK7k?si=lLy9Dso9fskKCFFZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

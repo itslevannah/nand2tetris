@@ -48,3 +48,5 @@ CHIP RAM4K {
     Mux8Way16(a=ra, b=rb, c=rc, d=rd, e=re, f=rf, g=rg, h=rh, sel=address[9..11], out=out);
 }
 ```
+### 4. Video Tutorial
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_sJkrndqIDw?si=39liIxk8YRbtRxSz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

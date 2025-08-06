@@ -56,3 +56,5 @@ CHIP RAM64 {
     Mux8Way16(a=ra, b=rb, c=rc, d=rd, e=re, f=rf, g=rg, h=rh, sel=address[3..5], out=out);
 }
  ``` 
+### 5. Video Tutorial
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kecRTzzXnfk?si=zHmbt9jWXjk-lvvo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

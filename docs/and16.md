@@ -65,3 +65,6 @@ CHIP And16 {
     And(a=a[15], b=b[15], out=out[15]);
 }
  ```
+
+### 4. Video Tutorial
+<iframe width="560" height="315" src="https://www.youtube.com/embed/G5rtAIpithM?si=rqQ4Z-byEbZvx1a5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

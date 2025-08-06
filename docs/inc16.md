@@ -46,3 +46,5 @@ CHIP Inc16 {
    Add16(a=in, b[0]=true , b[1..15]=false, out=out);
 }
  ```
+### 4. Video Tutorial
+<iframe width="560" height="315" src="https://www.youtube.com/embed/91dTAvUsKqY?si=xrSdODREyaLXJ8S1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

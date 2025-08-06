@@ -58,3 +58,6 @@ CHIP Not16 {
     Not(in=in[15], out=out[15]);
 }
  ```
+### 5. Video Tutorial
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/TbqwUmc9UiI?si=Vuww7s0wZs1iB01C" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

@@ -60,3 +60,6 @@ CHIP Mux16 {
     Mux(a=a[15], b=b[15], sel=sel, out=out[15]);
 }
  ```
+
+### 5. Video Tutorial
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5ykzNhWssak?si=V7hriTzOZjXn6grC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
