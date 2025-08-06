@@ -3,7 +3,7 @@ theme: just-the-docs
 just_the_docs:
   nav_external_links: false
   nav_sort: custom
-url: https://levannahonline.github.io/nand2tetris/
+url: https://itslevannah.github.io/nand2tetris/
 
 
 nav:
