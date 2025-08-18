@@ -114,6 +114,7 @@ Loop forever:
         @LOOP
         0;JMP      // Return to main loop
  ```
+
  ### 5. Memory Map Usage
 
 | Symbol        | Address Range | Purpose                         |
