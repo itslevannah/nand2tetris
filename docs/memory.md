@@ -49,24 +49,38 @@ CHIP Memory {
     OUT out[16];
 
     PARTS:
-    // Determine where to route based on address
-    Not(in=address[14], out=ramSel);                // address < 16384
-    And(a=ramSel, b=load, out=loadRam);             // load RAM if address < 16384
+    // ---------------------------------------------------------
+    // Address ranges:
+    //   0–16383   : RAM16K
+    //   16384–24575 : Screen
+    //   24576     : Keyboard
+    // ---------------------------------------------------------
 
-    And(a=address[14], b=address[13], out=screenSel); // 16384 <= address < 24576
-    And(a=screenSel, b=load, out=loadScreen);         // load screen if in range
+    // RAM select: address[14] = 0
+    Not(in=address[14], out=ramSel);
+    And(a=ramSel, b=load, out=loadRam);
+
+    // Screen select: address[14] = 1 AND address[13] = 0
+    Not(in=address[13], out=notA13);
+    And(a=address[14], b=notA13, out=screenSel);
+    And(a=screenSel, b=load, out=loadScreen);
 
     // RAM16K block
     RAM16K(in=in, load=loadRam, address=address[0..13], out=ramOut);
 
-    // Screen block (mapped to 16384 to 24575)
+    // Screen block
     Screen(in=in, load=loadScreen, address=address[0..12], out=screenOut);
 
-    // Keyboard block (mapped to 24576)
+    // Keyboard block
     Keyboard(out=keyOut);
 
-    // Choose correct output based on address
+    // Output selection:
+    // First choose between RAM and Screen (based on address[14])
     Mux16(a=ramOut, b=screenOut, sel=address[14], out=ramOrScreen);
-    Mux16(a=ramOrScreen, b=keyOut, sel=address[13] & address[14], out=out);
+
+    // Then choose between (RAM/Screen) vs Keyboard
+    And(a=address[14], b=address[13], out=keySel);
+    Mux16(a=ramOrScreen, b=keyOut, sel=keySel, out=out);
 }
+
  ```
