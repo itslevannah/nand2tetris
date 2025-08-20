@@ -48,64 +48,77 @@ The CPU combines the ALU, Register, and Program Counter (PC), and routes control
 
 ```hdl
 CHIP CPU {
-    IN inM[16], instruction[16], reset;
-    OUT outM[16], writeM, addressM[15], pc[15];
+    IN  inM[16],          // M value input  (from memory)
+        instruction[16],  // current instruction
+        reset;            // reset signal
+    OUT outM[16],         // M value output (to memory)
+        writeM,           // write M? (to memory)
+        addressM[15],     // address (of memory)
+        pc[15];           // program counter
 
     PARTS:
-    // Instruction Decoding
-    Not(in=instruction[15], out=isAInstruction);
+    // Decode type of instruction
+    Not(in=instruction[15], out=isAInstruction);   // 0 = A-instruction, 1 = C-instruction
 
-    // A-instruction handling
-    Mux16(a=aluOut, b=instruction[0..15], sel=isAInstruction, out=aIn);
-
-    // A register (can be loaded by both A- and C-instructions)
-    Or(a=isAInstruction, b=instruction[5], out=loadA);
-    Register(in=aIn, load=loadA, out=aOut);
-
-    // D register
-    Register(in=aluOut, load=instruction[4], out=dOut);
-
-    // Select input for ALU
+    // ALU input selection (a bit of C-instruction)
     Mux16(a=aOut, b=inM, sel=instruction[12], out=aluY);
 
     // ALU
     ALU(x=dOut, y=aluY,
         zx=instruction[11], nx=instruction[10],
-        zy=instruction[9], ny=instruction[8],
-        f=instruction[7], no=instruction[6],
+        zy=instruction[9],  ny=instruction[8],
+        f=instruction[7],   no=instruction[6],
         out=aluOut, zr=zr, ng=ng);
 
-    // Destination and write
-    And(a=instruction[3], b=instruction[15], out=writeM);
-    And(a=instruction[5], b=instruction[15], out=loadAFromALU);
-    And(a=instruction[4], b=instruction[15], out=loadD);
+    // ----- Registers -----
 
-    // Address to memory (from A register)
-    Assign(addressM = aOut);
+    // A register input: if A-instruction → instruction[0..14]; if C-instruction → ALU output
+    Mux16(a=instruction, b=aluOut, sel=instruction[15], out=aIn);
 
-    // Output from CPU to memory
+    // Load A if: A-instruction OR (C-instruction with dest[2] = 1)
+    Or(a=isAInstruction, b=instruction[5], out=loadA);
+    Register(in=aIn, load=loadA, out=aOut);
+
+    // D register (C-instruction with dest[1] = 1)
+    And(a=instruction[15], b=instruction[4], out=loadD);
+    Register(in=aluOut, load=loadD, out=dOut);
+
+    // ----- Memory interface -----
+
+    // OutM = ALU output
     Assign(outM = aluOut);
 
-    // Program Counter logic
-    // Determine jump conditions
+    // AddressM = A register
+    Assign(addressM = aOut[0..14]);
+
+    // WriteM = C-instruction with dest[0] = 1
+    And(a=instruction[15], b=instruction[3], out=writeM);
+
+    // ----- Program Counter -----
+
+    // Jump condition evaluation
     Not(in=zr, out=notZr);
     Not(in=ng, out=notNg);
 
-    And(a=notZr, b=notNg, out=pos);
-    And(a=notZr, b=ng, out=neg);
-    And(a=zr, b=notNg, out=zero);
+    // Compute >0, ==0, <0
+    And(a=notNg, b=notZr, out=pos);  // >0
+    And(a=zr, b=true, out=zero);     // ==0
+    And(a=ng, b=true, out=neg);      // <0
 
-    And(a=instruction[0], b=pos, out=jgt);
+    // Instruction[2:0] = jump bits (JGT, JEQ, JLT)
+    And(a=instruction[2], b=pos,  out=jgt);
     And(a=instruction[1], b=zero, out=jeq);
-    And(a=instruction[2], b=neg, out=jlt);
+    And(a=instruction[0], b=neg,  out=jlt);
 
-    Or(a=jlt, b=jeq, out=jlteq);
-    Or(a=jlteq, b=jgt, out=jump);
+    Or(a=jgt, b=jeq, out=tmp1);
+    Or(a=tmp1, b=jlt, out=jump);
 
+    // Only allow jump if it’s a C-instruction
     And(a=instruction[15], b=jump, out=pcLoad);
 
-    // PC
+    // Program Counter
     PC(in=aOut, load=pcLoad, inc=true, reset=reset, out=pc);
 }
+
 
  ```
